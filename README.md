@@ -24,7 +24,7 @@ Para o segundo trabalho da trilha de Sistemas Embarcados (SE) da fase 2 do Embar
 
 ## :books: Descrição do Projeto
 
-Utilizou-se a placa BitDogLab (que possui o microcontrolador RP2040) para a exibição no dispaly OLED ssd1306 os valores de resistência, faixa de cores e resistência comercial de um resistor. Isso é possível graças ao periférico ADC do RP2040. Os botões intercalam os menus de exibição dos dados do resistor medido. Os botões são controlados por meio de interrupções e possuem debounce via software. Ainda na parte do software, é utilizado técnicas intermediárias como busca linear e struct. O código pode ser depurado via monitor serial. Um adendo sobre o código foi a utilização do valor 9730 para o resistor conhecido (ao invés de 10000, reiterado via multímetro), visto que esse valor seria mais preciso para a medição.
+Utilizou-se a placa BitDogLab (que possui o microcontrolador RP2040) para a exibição no dispaly OLED ssd1306 os valores de resistência, faixa de cores e resistência comercial de um resistor. Isso é possível graças ao periférico ADC do RP2040. Os botões intercalam os menus de exibição dos dados do resistor medido. Os botões são controlados por meio de interrupções e possuem debounce via software. Ainda na parte do software, é utilizado técnicas intermediárias como busca linear e struct. O código pode ser depurado via monitor serial. Um adendo sobre o código foi a utilização do valor 9730 Ohms para o resistor conhecido (ao invés de 10000, reiterado via multímetro), visto que esse valor seria mais preciso para a medição.
 
 ## :walking: Integrantes do Projeto
 
